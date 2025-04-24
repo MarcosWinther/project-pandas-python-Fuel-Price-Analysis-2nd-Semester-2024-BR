@@ -1,0 +1,55 @@
+# Ignorar checkpoints automáticos do Jupyter
+.ipynb_checkpoints/
+
+# Ignorar pastas de configuração do Jupyter
+.jupyter/
+.local/
+.venv/
+
+# Ignorar pastas comuns de dados
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de ambiente virtual
+env/
+venv/
+
+# Ignorar arquivos de cache e metadados
+*.log
+*.bak
+*.swp
+.DS_Store
+
+# Ignorar arquivos gerados por pacotes Python
+*.egg-info/
+build/
+dist/
+
+# Ignorar arquivos do Jupyter Lab/Notebook
+lab/
+nbproject/
+
+# Arquivos de sistema e configurações do editor
+Thumbs.db
+*.swo
+*.vscode/
+.idea/
+*.sublime-*
+*.bak
+
+# Arquivos de configuração do git
+.git/index.lock
+.git/HEAD.lock
+
+# Arquivos criados pelo pytest
+.pytest_cache/
+.coverage
+*.xml
+
+# Arquivos gerados por outros frameworks ou ferramentas
+node_modules/
+target/
+
+# Arquivos especificos do sistema operacional
+.ipynb_tmp.autosave
